@@ -14,6 +14,7 @@ class MyDocument extends Document {
                     <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
                     <meta name='keywords' content={site.keywords} />
                     <meta name='description' content={site.description} />
+                    <link rel='icon' href='/favicon.ico' />
                 </Head>
                 <body className='dark:text-dimmed-font dark:bg-dimmed-900 min-h-screen font-sans antialiased'>
                     <Main />
